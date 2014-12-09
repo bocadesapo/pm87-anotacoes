@@ -1,0 +1,17 @@
+git clone uri (catar uma cópia do repositório remoto)
+git log (histórico)
+git add <nome arquivo> (adiciona os arqs q serâo considerados no commit local) (pode usar máscara) ex: git add .
+git commit -m 'comentário'   (commit local)
+git commit -a -m 'comentário'   (commit local, adiciona tudo q foi modificado, só pra arqs já existentes no repositório)
+
+git status <-s(short version)> (lista a situação do rep local)
+
+git init (transforma o dir atual em repositório local)
+git remote add <alias do remoto> <url> (linka o repositório reoto ao local)
+git push <alias rep remoto> <nome do branch> (commita remoto / existe um branch padrão 'master')
+
+git remote -v(verboso) (lista os reps remotos / 'origin' é um alias padrão)
+git branch (mostra os branchs /  *=atual / master=default)
+git branch <nome> (cria um branch)
+git checkout <nome> (troca de branch)
+

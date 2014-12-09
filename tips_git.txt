@@ -13,12 +13,14 @@ git push <alias rep remoto> <nome do branch> (commita remoto / existe um branch 
 git remote -v(verboso) (lista os reps remotos / 'origin' é um alias padrão)
 git branch (mostra os branchs /  *=atual / master=default)
 git branch <nome> (cria um branch)
-git checkout <nome> (troca de branch)
-git merge <nomebranch22> (sincroiza as mudanças do branch atual para o branch22>
+git checkout <nome> (troca de branch) / este cmd faz outras coisas tb
+git merge <nomebranch22> (sincroniza as mudanças do branch atual para o branch22>
 git log --oneline --parents (mostra todos os commits  / cada commit no git tem um id e pode ter um commit pai/anterior)
 
-git rebase <nomebranch22> (sincroiza as mudanças do branch atual para o branch22, mas dá uma rearranjada maluca, deixando o histórico linear entre os commits e seus pais, sem fazer 'galhos' no histórico>
+git rebase <nomebranch22> (sincroniza as mudanças do branch atual para o branch22, mas dá uma rearranjada maluca, deixando o histórico linear entre os commits e seus pais, sem fazer 'galhos' no histórico>
 
 os branchs, no git, na verdade apenas apontam para os ponteiros dos commits feitos 
 git branch -d <nome> (apaga um branch)
 
+
+http://pcottle.github.io/learnGitBranching/?demo

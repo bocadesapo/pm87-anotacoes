@@ -22,5 +22,6 @@ git rebase <nomebranch22> (sincroniza as mudanças do branch atual para o branch
 os branchs, no git, na verdade apenas apontam para os ponteiros dos commits feitos 
 git branch -d <nome> (apaga um branch)
 
+git pull <alias> <branch> (traz as mudanças do rep alias já fazendo o merge possível)
 
 http://pcottle.github.io/learnGitBranching/?demo
